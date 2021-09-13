@@ -1,17 +1,16 @@
-<template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template lang="pug">
+  #app
+    comment-app-container
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CommentAppContainer from './components/CommentAppContainer.vue'
+import './styles/global.scss'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+     CommentAppContainer
   }
 }
 </script>
